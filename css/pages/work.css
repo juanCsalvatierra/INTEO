@@ -1,0 +1,15 @@
+.work {
+	padding: 7rem;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 2rem;
+}
+
+.work__left .work__img {
+	max-width: 37rem;
+}
+
+.work__right .work__img {
+	max-width: 30rem;
+}

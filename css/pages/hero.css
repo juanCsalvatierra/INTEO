@@ -1,0 +1,41 @@
+.hero__text {
+	text-align: center;
+	padding: 5rem 0;
+}
+
+.hero__img {
+	max-width: 90rem;
+}
+
+.hero__creative {
+	position: relative;
+}
+
+.hero__cta {
+	max-width: 7.5rem;
+	position: absolute;
+	left: 7rem;
+	top: -10%;
+}
+
+.hero__cta img {
+	border-radius: 50%;
+	border: 1px #fff solid;
+}
+
+.awards {
+	padding: 1.5rem 7rem;
+	border: 1px solid red;
+
+	display: flex;
+	align-items: center;
+}
+
+.awards__wrapper {
+	width: 100%;
+	padding: 0 1.25rem;
+
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+}

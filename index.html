@@ -9,16 +9,17 @@
 	</head>
 	<body>
 		<header class="header">
-			<div class="header__logo">INTEO</div>
-			<nav>
-				<ul class="nav__menu">
-					<li class="nav__link"><a href="#">About</a></li>
-					<li class="nav__link"><a href="#">Services</a></li>
-					<li class="nav__link"><a href="#">Our Work</a></li>
-				</ul>
-
-				<button class="nav__cta"><a href="#">contact us &nearr;</a></button>
-			</nav>
+			<div class="header__wrapper">
+				<div class="header__logo">INTEO</div>
+				<nav class="nav">
+					<ul class="nav__menu">
+						<li class="nav__link"><a href="#">About</a></li>
+						<li class="nav__link"><a href="#">Services</a></li>
+						<li class="nav__link"><a href="#">Our Work</a></li>
+						<button class="nav__cta"><a href="#">contact us &nearr;</a></button>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
 		<main class="main">
@@ -42,53 +43,57 @@
 				</div>
 
 				<div class="awards">
+					<p class="awards__title">awards</p>
 					<div class="awards__wrapper">
-						<p class="awards__title">awards</p>
 						<div class="awards__item">
-							<h5 class="awards__name">German Design Award</h5>
-							<h5 class="awards__year">2021</h5>
+							<p class="awards__name">German Design Award</p>
+							<p class="awards__year">2021</p>
 						</div>
 						<div class="awards__item">
-							<h5 class="awards__name">Gold A’ Design Award</h5>
-							<h5 class="awards__year">2021</h5>
+							<p class="awards__name">Gold A’ Design Award</p>
+							<p class="awards__year">2021</p>
 						</div>
 						<div class="awards__item">
-							<h5 class="awards__name">IF Design Award</h5>
-							<h5 class="awards__year">2020</h5>
+							<p class="awards__name">IF Design Award</p>
+							<p class="awards__year">2020</p>
 						</div>
 						<div class="awards__item">
-							<h5 class="awards__name">Good Design Award</h5>
-							<h5 class="awards__year">2019</h5>
+							<p class="awards__name">Good Design Award</p>
+							<p class="awards__year">2019</p>
 						</div>
 					</div>
 				</div>
 			</section>
 
 			<section class="about">
-				<div class="about__left">
-					<h4 class="about__h4">about us</h4>
-					<h2 class="about__h2">We help to bring your dream home to reality</h2>
-					<p class="about__p">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
-						fringilla dui amet faucibus nam. Erat id laoreet posuere etiam
-						morbi.
-					</p>
-					<div class="about__p">
-						Tempor dolor elementum tellus non ipsum faucibus. Justo, magna
-						mauris posuere auctor justo. Habitant proin aliquet volutpat leo
-						ultricies. Dui blandit eget vitae turpis ultrices aliquet nunc.
-						Faucibus sit odio bibendum lobortis diam.
+				<div class="about__wrapper">
+					<div class="about__left">
+						<h5 class="about__h5">about us</h5>
+						<h2 class="about__h2">
+							We help to bring your dream home to reality
+						</h2>
+						<p class="about__p">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
+							fringilla dui amet faucibus nam. Erat id laoreet posuere etiam
+							morbi.
+						</p>
+						<div class="about__p">
+							Tempor dolor elementum tellus non ipsum faucibus. Justo, magna
+							mauris posuere auctor justo. Habitant proin aliquet volutpat leo
+							ultricies. Dui blandit eget vitae turpis ultrices aliquet nunc.
+							Faucibus sit odio bibendum lobortis diam.
+						</div>
 					</div>
-				</div>
-				<div class="about__right">
-					<div class="about__badge">
-						<img src="http://via.placeholder.com/120x120" />
-					</div>
-					<div class="about__img">
-						<img src="http://via.placeholder.com/280x480" />
-					</div>
-					<div class="about__img">
-						<img src="http://via.placeholder.com/280x480" />
+					<div class="about__right">
+						<div class="about__badge">
+							<img src="http://via.placeholder.com/120x120" />
+						</div>
+						<div class="about__img">
+							<img src="http://via.placeholder.com/280x480" />
+						</div>
+						<div class="about__img">
+							<img src="http://via.placeholder.com/280x480" />
+						</div>
 					</div>
 				</div>
 
@@ -110,12 +115,12 @@
 
 			<section class="services">
 				<div class="services__text">
-					<h4 class="services__h4">our services</h4>
+					<h5 class="services__h5">our services</h5>
 					<h2 class="services__h2">
 						We provide the best solutions for your dream home
 					</h2>
 				</div>
-				<div class="services__flex">
+				<div class="services__wrapper">
 					<div class="services__card">
 						<div class="services__icon"></div>
 						<h3 class="services__h3">Architectural & Interior design</h3>
@@ -145,7 +150,7 @@
 
 			<section class="work">
 				<div class="work__left">
-					<h4 class="work__h4">recent works</h4>
+					<h5 class="work__h5">recent works</h5>
 					<h2 class="work__h2">Some of our crafts made with love</h2>
 
 					<div class="work__item">
@@ -188,11 +193,31 @@
 		</main>
 
 		<footer class="footer">
-			<div class="footer__wrapper">
-				<div class="footer__left"></div>
-				<div class="footer__right"></div>
+			<div class="footer__top">
+				<div class="footer__left">
+					<p class="footer__text1">Kick-start your dream home with us</p>
+					<p class="footer__text2">Send us a hi</p>
+				</div>
+				<div class="footer__right">
+					<div class="footer__address">
+						<h4 class="footer__h4">Brooklyn, New York</h4>
+						<p class="footer__p">
+							962 Fifth Avenue Str, 3rd Floor-Trump Building NY 10006, United
+							State.
+						</p>
+					</div>
+					<div class="footer__contact">
+						<p class="footer__p">Email us at</p>
+						<div class="footer__email">hello@landify.design</div>
+					</div>
+					<div class="footer__contact">
+						<p class="footer__p">If you're hurry, quick call for us</p>
+						<div class="footer__phone">+8(663)125-08-59</div>
+					</div>
+				</div>
 			</div>
-			<div class="footer__wrapper">
+			<hr class="footer__divider" />
+			<div class="footer__bottom">
 				<p class="footer__copy">
 					&copy; 2022 Inteo - Award winning studio. Made with love by Landify
 				</p>

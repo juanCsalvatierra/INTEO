@@ -1,0 +1,12 @@
+.services {
+	padding: 7rem;
+}
+
+.services__text {
+	padding-bottom: 5rem;
+}
+
+.services__wrapper {
+	display: flex;
+	gap: 2rem;
+}

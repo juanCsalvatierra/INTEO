@@ -1,0 +1,25 @@
+.footer {
+	padding: 0 7rem 5rem 7rem;
+}
+
+.footer__top {
+	padding-bottom: 5rem;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__divider {
+	border-top: 1px solid #bbb;
+	padding-bottom: 5rem;
+}
+
+.footer__bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__socials {
+	display: flex;
+	gap: 1.5rem;
+}
