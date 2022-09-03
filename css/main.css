@@ -1,0 +1,21 @@
+@import "./reset.css";
+
+.hero__cta {
+	max-width: 7.5rem;
+}
+
+.hero__img {
+	max-width: 90rem;
+}
+
+.about__badge {
+	max-width: 7.5rem;
+}
+
+.about__img {
+	max-width: 17.5rem;
+}
+
+.work__img {
+	max-width: 37rem;
+}
