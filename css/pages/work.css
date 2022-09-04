@@ -6,12 +6,34 @@
 	column-gap: 2rem;
 }
 
+.work__h5 {
+	padding-bottom: 1.5rem;
+}
+
+.work__h2 {
+	padding-bottom: 6rem;
+}
+
+.work__item-left {
+	padding-bottom: 6rem;
+}
+
 .work__img-left {
 	max-width: 37rem;
+	padding-bottom: 1.5rem;
+}
+
+.work__h3 {
+	padding-bottom: 1rem;
+}
+
+.work__item-right:nth-child(1) {
+	padding-bottom: 5rem;
 }
 
 .work__img-right {
 	max-width: 30rem;
+	padding-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 48em) {

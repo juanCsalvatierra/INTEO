@@ -8,6 +8,10 @@
 
 .about__left {
 	align-self: center;
+
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
 }
 
 .about__right {
@@ -47,6 +51,12 @@
 .metrics__item {
 	display: flex;
 	gap: 1rem;
+	align-items: center;
+}
+
+.metrics__h6 {
+	text-transform: uppercase;
+	max-width: 8.75rem;
 }
 
 @media screen and (max-width: 48em) {

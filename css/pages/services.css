@@ -6,6 +6,28 @@
 	padding-bottom: 5rem;
 }
 
+.services__h2 {
+	max-width: 50rem;
+}
+
+.services__h3 {
+	padding-bottom: 1rem;
+}
+
+.services__h5 {
+	padding-bottom: 1.5rem;
+}
+
+.services__card {
+	padding: 2.5rem;
+	border: 1px solid var(--primary-50);
+}
+
+.services__icon {
+	max-width: 3rem;
+	padding-bottom: 5rem;
+}
+
 .services__wrapper {
 	display: flex;
 	gap: 2rem;

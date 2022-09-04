@@ -7,11 +7,28 @@
 
 	display: flex;
 	justify-content: space-between;
+	gap: 2rem;
+}
+
+.footer__h2:nth-child(1) {
+	max-width: 31.25rem;
+	padding-bottom: 1rem;
 }
 
 .footer__divider {
 	border-top: 1px solid #bbb;
 	padding-bottom: 5rem;
+}
+
+.footer__right {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.footer__h4,
+.footer__contact {
+	padding-bottom: 0.5rem;
 }
 
 .footer__bottom {
@@ -22,6 +39,7 @@
 .footer__socials {
 	display: flex;
 	gap: 1.5rem;
+	align-items: center;
 }
 
 @media screen and (max-width: 48em) {
