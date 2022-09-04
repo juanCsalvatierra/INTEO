@@ -18,14 +18,8 @@
 	top: -3.75rem;
 }
 
-.hero__cta img {
-	border-radius: 50%;
-	border: 1px #fff solid;
-}
-
 .awards {
 	padding: 1.5rem 7rem;
-	border: 1px solid red;
 
 	display: flex;
 	align-items: center;
@@ -39,6 +33,10 @@
 	grid-template-columns: repeat(4, 1fr);
 	grid-auto-rows: max-content;
 	column-gap: 4rem;
+}
+
+.awards__image {
+	width: 5rem;
 }
 
 @media screen and (max-width: 48em) {

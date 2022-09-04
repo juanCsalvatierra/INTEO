@@ -33,11 +33,6 @@
 	max-width: 17.5rem;
 }
 
-.about__badge img {
-	border-radius: 50%;
-	border: 1px #fff solid;
-}
-
 .about__img:nth-child(3) {
 	padding-top: 5rem;
 }
