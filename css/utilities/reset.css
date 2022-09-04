@@ -10,9 +10,10 @@
 	--neutral-100: #e5e5e5;
 
 	--black: #393939;
+	--white: #fff;
 
-	--main-font: Helvetica, Arial, sans-serif;
-	--secondary-font: Verdana;
+	--display-font: "Playfair Display", serif;
+	--body-font: "Outfit", sans-serif;
 }
 
 * {
@@ -117,7 +118,7 @@ svg {
 body {
 	min-height: 100vh;
 	font-size: 100%;
-	font-family: var(--main-font);
+	font-family: var(--body-font);
 	color: var(--black);
 	line-height: 1.4em;
 }

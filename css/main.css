@@ -1,4 +1,5 @@
-@import "./reset.css";
+@import "./utilities/reset.css";
+@import "./utilities/typography.css";
 @import "./pages/header.css";
 @import "./pages/hero.css";
 @import "./pages/about.css";
