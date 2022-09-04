@@ -12,10 +12,10 @@
 }
 
 .hero__cta {
-	max-width: 7.5rem;
+	width: 7.5rem;
 	position: absolute;
 	left: 7rem;
-	top: -10%;
+	top: -3.75rem;
 }
 
 .hero__cta img {
@@ -35,7 +35,39 @@
 	width: 100%;
 	padding: 0 1.25rem;
 
-	flex: 1;
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: max-content;
+	column-gap: 4rem;
+}
+
+@media screen and (max-width: 48em) {
+	.hero__cta {
+		left: 0;
+		right: 0;
+
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.awards {
+		padding: 1.5rem 2.5rem;
+	}
+
+	.awards__wrapper {
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 2.5rem;
+		row-gap: 2rem;
+	}
+}
+
+@media screen and (max-width: 23em) {
+	.awards {
+		padding: 1.5rem 1.25rem;
+	}
+
+	.awards__wrapper {
+		grid-template-columns: 1fr;
+		row-gap: 1.5rem;
+	}
 }

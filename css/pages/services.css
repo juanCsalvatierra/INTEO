@@ -10,3 +10,19 @@
 	display: flex;
 	gap: 2rem;
 }
+
+@media screen and (max-width: 48em) {
+	.services {
+		padding: 6rem 2.5rem;
+	}
+
+	.services__wrapper {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 23em) {
+	.services {
+		padding: 3rem 1.25rem;
+	}
+}

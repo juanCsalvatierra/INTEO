@@ -6,10 +6,28 @@
 	column-gap: 2rem;
 }
 
-.work__left .work__img {
+.work__img-left {
 	max-width: 37rem;
 }
 
-.work__right .work__img {
+.work__img-right {
 	max-width: 30rem;
+}
+
+@media screen and (max-width: 48em) {
+	.work {
+		padding: 6rem 2.5rem;
+		grid-template-columns: 1fr;
+	}
+
+	.work__img-left,
+	.work__img-right {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 23em) {
+	.work {
+		padding: 3rem 1.25rem;
+	}
 }

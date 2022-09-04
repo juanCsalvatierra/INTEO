@@ -23,3 +23,14 @@
 	display: flex;
 	gap: 1.5rem;
 }
+
+@media screen and (max-width: 48em) {
+	.footer {
+		padding: 0 2.5rem 5rem 2.5rem;
+	}
+
+	.footer__top,
+	.footer__bottom {
+		flex-direction: column;
+	}
+}
