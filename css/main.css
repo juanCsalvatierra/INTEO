@@ -1,5 +1,7 @@
 @import "./utilities/reset.css";
 @import "./utilities/typography.css";
+@import "./components/button.css";
+@import "./components/eyebrow.css";
 @import "./pages/header.css";
 @import "./pages/hero.css";
 @import "./pages/about.css";

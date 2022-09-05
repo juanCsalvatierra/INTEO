@@ -36,6 +36,7 @@ h5 {
 	font-size: 0.875rem;
 	line-height: 1.25rem;
 	color: var(--primary-600);
+	text-transform: uppercase;
 }
 
 h6 {
@@ -96,6 +97,7 @@ p {
 
 .footer__email,
 .footer__phone {
+	font-family: var(--display-font);
 	font-weight: 400;
 	font-size: 1.5rem;
 	line-height: 2rem;
@@ -111,4 +113,11 @@ p {
 .footer__h2--italic {
 	font-style: italic;
 	color: var(--primary-600);
+}
+
+.footer__copy {
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	color: var(--neutral-700);
 }

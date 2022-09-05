@@ -2,20 +2,14 @@
 	padding: 7rem;
 }
 
-.services__text {
-	padding-bottom: 5rem;
-}
-
 .services__h2 {
 	max-width: 50rem;
+	padding-bottom: 5rem;
+	padding-top: 1.5rem;
 }
 
 .services__h3 {
 	padding-bottom: 1rem;
-}
-
-.services__h5 {
-	padding-bottom: 1.5rem;
 }
 
 .services__card {
