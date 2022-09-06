@@ -93,6 +93,10 @@
 }
 
 @media screen and (max-width: 37em) {
+	.awards {
+		align-items: flex-start;
+	}
+
 	.awards__wrapper {
 		grid-template-columns: 1fr;
 		row-gap: 1.5rem;

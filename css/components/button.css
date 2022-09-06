@@ -12,3 +12,7 @@
 .button__icon {
 	width: 1.25rem;
 }
+
+.button:hover {
+	background-color: #795226;
+}
