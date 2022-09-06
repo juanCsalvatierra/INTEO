@@ -27,13 +27,21 @@
 	gap: 2rem;
 }
 
+@media screen and (max-width: 76em) {
+	.services {
+		padding: 3.75rem;
+	}
+}
+
+@media screen and (max-width: 66em) {
+	.services__wrapper {
+		flex-direction: column;
+	}
+}
+
 @media screen and (max-width: 48em) {
 	.services {
 		padding: 6rem 2.5rem;
-	}
-
-	.services__wrapper {
-		flex-direction: column;
 	}
 }
 

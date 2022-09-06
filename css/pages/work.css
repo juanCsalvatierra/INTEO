@@ -37,10 +37,26 @@
 	padding-bottom: 1.5rem;
 }
 
+@media screen and (max-width: 76em) {
+	.work {
+		padding: 3.75rem;
+	}
+}
+
 @media screen and (max-width: 48em) {
 	.work {
+		position: relative;
 		padding: 6rem 2.5rem;
 		grid-template-columns: 1fr;
+	}
+
+	.work__cta {
+		position: absolute;
+		bottom: 0;
+	}
+
+	.work__item-left {
+		padding-bottom: 5rem;
 	}
 
 	.work__img-left,
@@ -51,6 +67,11 @@
 
 @media screen and (max-width: 23em) {
 	.work {
-		padding: 3rem 1.25rem;
+		padding: 3rem 1.25rem 9.5rem 1.25rem;
+	}
+
+	.work__item-left,
+	.work__item-right:nth-child(1) {
+		padding-bottom: 2.5rem;
 	}
 }

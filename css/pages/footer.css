@@ -1,5 +1,5 @@
 .footer {
-	padding: 0 7rem 5rem 7rem;
+	padding: 5rem 7rem;
 }
 
 .footer__top {
@@ -44,6 +44,7 @@
 
 .footer__connect {
 	color: var(--neutral-700);
+	letter-spacing: 0.1em;
 }
 
 .footer__copy--highlighted {
@@ -56,13 +57,29 @@
 	background-color: var(--neutral-700);
 }
 
+@media screen and (max-width: 76em) {
+	.footer {
+		padding: 3.75rem;
+	}
+}
+
 @media screen and (max-width: 48em) {
 	.footer {
-		padding: 0 2.5rem 5rem 2.5rem;
+		padding: 5rem 2.5rem;
+	}
+
+	.footer__bottom {
+		gap: 2rem;
 	}
 
 	.footer__top,
 	.footer__bottom {
 		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 23em) {
+	.footer {
+		padding: 5rem 1.25rem;
 	}
 }

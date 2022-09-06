@@ -3,6 +3,10 @@
 	padding: 5rem 0;
 }
 
+.hero__h1 {
+	padding-bottom: 1.5rem;
+}
+
 .hero__p {
 	max-width: 50rem;
 	margin: 0 auto;
@@ -31,11 +35,19 @@
 	align-items: center;
 }
 
+.awards__left {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+}
+
 .awards__title {
 	color: var(--white);
 	font-weight: 400;
 	font-style: italic;
-	transform: rotate(270deg);
+	transform: rotate(180deg);
+	writing-mode: vertical-lr;
+	text-orientation: mixed;
 	opacity: 0.5;
 }
 
@@ -66,7 +78,32 @@
 	width: 5rem;
 }
 
+@media screen and (max-width: 76em) {
+	.awards {
+		padding: 1.5rem 3.75rem;
+	}
+}
+
+@media screen and (max-width: 63em) {
+	.awards__wrapper {
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 2.5rem;
+		row-gap: 2rem;
+	}
+}
+
+@media screen and (max-width: 37em) {
+	.awards__wrapper {
+		grid-template-columns: 1fr;
+		row-gap: 1.5rem;
+	}
+}
+
 @media screen and (max-width: 48em) {
+	.hero__text {
+		padding: 5rem 2.5rem;
+	}
+
 	.hero__cta {
 		left: 0;
 		right: 0;
@@ -78,21 +115,14 @@
 	.awards {
 		padding: 1.5rem 2.5rem;
 	}
-
-	.awards__wrapper {
-		grid-template-columns: repeat(2, 1fr);
-		column-gap: 2.5rem;
-		row-gap: 2rem;
-	}
 }
 
 @media screen and (max-width: 23em) {
-	.awards {
-		padding: 1.5rem 1.25rem;
+	.hero__text {
+		padding: 5rem 1.25rem;
 	}
 
-	.awards__wrapper {
-		grid-template-columns: 1fr;
-		row-gap: 1.5rem;
+	.awards {
+		padding: 1.5rem 1.25rem;
 	}
 }

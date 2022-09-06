@@ -3,4 +3,12 @@
 	border: none;
 	background-color: var(--primary-600);
 	color: var(--white);
+
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.button__icon {
+	width: 1.25rem;
 }
